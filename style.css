@@ -1,0 +1,115 @@
+* {
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: arial, sans-serif;
+	color: white;
+
+}
+
+
+body {
+
+
+	background: #AAB3EE;
+	color: white;
+	font-family: arial, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	
+}
+
+ol {
+
+	list-style: none;
+	width: 300px;
+	
+}
+
+ol li {
+
+	font-size: 1.2rem;
+	background: rgb(23, 23, 23);
+	margin: 10px 0;
+	padding: 20px 30px;
+	cursor: pointer;
+	position: relative;
+	transition: all .4s;
+	z-index: 5;
+
+	
+}
+
+ol li::before {
+
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 5px;
+	background: white;
+	transition: all .4s;
+	z-index: -1;
+	
+}
+
+ol li:hover::before {
+
+	width: 100%;
+}
+
+ol li:nth-child(1)::before {
+
+	background: #7C89DD;
+}
+
+ol li:nth-child(2)::before {
+
+	background: #7C89DD;
+}
+
+ol li:nth-child(3)::before {
+
+	background: #7C89DD;
+}
+
+
+ol li:nth-child(4)::before {
+
+	background: #7C89DD;
+}
+
+ol li:nth-child(5)::before {
+
+	background: #7C89DD;
+}
+
+ol li:nth-child(6)::before {
+
+	background: #7C89DD;
+}
+
+ol li:nth-child(7)::before {
+
+	background: #7C89DD;
+}
+
+ol li:nth-child(8)::before {
+
+	background: #7C89DD;
+}
+
+ol li:nth-child(9)::before {
+
+	background: #7C89DD;
+}
+
+ol li:hover {
+
+	transform: translateX(20px);
+}
